@@ -1,0 +1,19 @@
+
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "jsx": "react-jsx",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "outDir": "./dist",
+    "allowJs": true,
+    "typeRoots": ["./node_modules/@types", "./src"]
+  },
+  "include": ["src/**/*","src/module-federation.d.ts"],
+  "exclude": ["node_modules"]
+}
+
