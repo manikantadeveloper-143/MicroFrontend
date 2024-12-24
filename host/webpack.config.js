@@ -34,7 +34,7 @@ module.exports = {
             filename: "remoteEntry",
             remotes: {
                 headerApp: "headerApp@http://localhost:3001/remoteEntry.js",
-                FooterComponent: 'footerApp@http://localhost:4201/remoteEntry.js',
+                FooterComponent: 'footerApp@http://localhost:4003/remoteEntry.js',
             },
             shared: { react: { singleton: true, eager: true }, "react-dom": { singleton: true, eager: true } },
         }),

@@ -3,8 +3,8 @@ import React,{Suspense} from 'react';
 const Header = React.lazy(() => import("headerApp/Header"));
 console.log("Header:", Header);
 
-const FooterComponent = React.lazy(() => import('FooterComponent/FooterComponent'));
-console.log("Footer:", FooterComponent);
+// const FooterComponent = React.lazy(() => import('FooterComponent/FooterComponent'));
+// console.log("Footer:", FooterComponent);
 
 
 const App = () => {
@@ -14,9 +14,9 @@ const App = () => {
       <Header/>
     </Suspense>
 
-    <Suspense fallback={<div>Loading Header...</div>}>
+    {/* <Suspense fallback={<div>Loading Header...</div>}>
       <FooterComponent/>
-    </Suspense>
+    </Suspense> */}
 
 
     </div>
